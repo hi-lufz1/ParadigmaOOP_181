@@ -10,6 +10,11 @@ public:
 	string nama;
 	jantung varJantung;
 
-	
+	manusia(string pName) :nama(pName) {
+		cout << nama << "hidup\n";
+	}
+	~manusia() {
+		cout << nama << "mati\n";
+	}
 };
 #endif
