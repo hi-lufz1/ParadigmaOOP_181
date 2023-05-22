@@ -14,7 +14,12 @@ public:
 	}
 	~mahasiswa() {
 		cout << "id = " << id << endl;
-		cout << "nama = ";
-
+		cout << "nama = "<< nama<< endl;
+		cout << "nilai =" << nilai << endl;
 	}
 };
+
+int main() {
+	mahasiswa mhs(12, "Lia", 90.5);
+
+}
